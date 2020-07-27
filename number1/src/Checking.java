@@ -14,8 +14,7 @@ public class Checking {
         rightSum = sum(array, 0, array.length);
 
         for (int i = 0; i < array.length; i++){
-/*            leftSum = sum(array, 0, i);
-            rightSum = sum(array, i, array.length);*/
+
 
             leftSum += array[i];
             rightSum -= array[i];
